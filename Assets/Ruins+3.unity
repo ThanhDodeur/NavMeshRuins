@@ -372,7 +372,7 @@ Transform:
   - {fileID: 881929340}
   - {fileID: 1007932017}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: -1.838, y: -42.609, z: 0}
 --- !u!1001 &436925825
 Prefab:
@@ -834,7 +834,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 48.777, y: 7.5730004, z: 4.477}
 --- !u!114 &906444441
 MonoBehaviour:
@@ -890,7 +890,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.16666667
   m_BuildHeightMesh: 0
-  m_NavMeshData: {fileID: 23800000, guid: 97b25f46a719e7143b0df3cbfdd3ec1f, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 2865bfa7507cae44892e04b2c7036c15, type: 2}
 --- !u!4 &1007932017
 Transform:
   m_ObjectHideFlags: 0
@@ -1090,7 +1090,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4635700661912698, guid: 03e6e059d5dec694f80a2b76cc59e4fd, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 114381626754499712, guid: 03e6e059d5dec694f80a2b76cc59e4fd,
         type: 2}
@@ -1099,6 +1099,72 @@ Prefab:
       objectReference: {fileID: 906444439}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 03e6e059d5dec694f80a2b76cc59e4fd, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1088657846
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400006, guid: 6be0a8fcfce9c8d479d53eb18ec26297, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.9229212
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 6be0a8fcfce9c8d479d53eb18ec26297, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.4000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 6be0a8fcfce9c8d479d53eb18ec26297, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 31.827349
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 6be0a8fcfce9c8d479d53eb18ec26297, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 6be0a8fcfce9c8d479d53eb18ec26297, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.6276802
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 6be0a8fcfce9c8d479d53eb18ec26297, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 6be0a8fcfce9c8d479d53eb18ec26297, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.77847135
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 6be0a8fcfce9c8d479d53eb18ec26297, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 6be0a8fcfce9c8d479d53eb18ec26297, type: 3}
+      propertyPath: m_Name
+      value: MoulinAnime (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 6be0a8fcfce9c8d479d53eb18ec26297, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.5809932
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 6be0a8fcfce9c8d479d53eb18ec26297, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.5809934
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 6be0a8fcfce9c8d479d53eb18ec26297, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.5809934
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 6be0a8fcfce9c8d479d53eb18ec26297, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 77.758
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 6be0a8fcfce9c8d479d53eb18ec26297, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: a51a27f38bf6dd448a0282a17ca8e828, type: 2}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 6be0a8fcfce9c8d479d53eb18ec26297, type: 3}
   m_IsPrefabParent: 0
 --- !u!1001 &1091022862
 Prefab:
